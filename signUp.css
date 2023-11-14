@@ -1,0 +1,58 @@
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the form container */
+form {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style form labels */
+label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+/* Style form input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the signup button */
+.button input {
+    background-color: #007BFF;
+    border: 1px solid;
+    display: inline-block;
+    padding: 5px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+

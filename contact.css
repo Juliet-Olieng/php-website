@@ -1,0 +1,366 @@
+.topPage {
+    color: #1F2B6C;
+    font-family: Work Sans;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.li{
+    color: #BFD2F8;
+}
+/* Style the headings */
+.topPage h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Style the sections with icons */
+.topPage > div {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the icons */
+.topPage ion-icon  {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    color: #1F2B6C;
+}
+
+/* Style the text inside the sections */
+.topPage p {
+    font-size: 16px;
+    font-style: normal;
+}
+.topPage #p{
+    color:#159EEC;
+}
+
+/* Style the emergency number */
+.topPage p:nth-child(2) {
+    font-weight: bold;
+}
+
+/* Add spacing between sections */
+.topPage > div + div {
+    margin-left: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color:#1F2B6C;
+    /* color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav ion-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    color: #159EEC;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--white, #FCFEFE);
+     font-family: Work Sans;
+    font-size: 18px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+input[type="search"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #BFD2F8;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color:#1F2B6C;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+.banner{
+    width: 100%;
+    background-image: url(./images/Rectangle\ 3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    height: 400px;
+    opacity: 100%;
+    /* text-align: center; */
+    color: #1F2B6C;
+}
+.banner p{
+    margin-left: 10%;
+    padding-top: 5%;
+    font-family: Work Sans;
+    font-size: 18px;
+  font-style: normal;
+   font-weight: 400;
+   line-height: 140%;
+}
+.banner h1{
+    margin-left: 10%;
+font-family: Yeseva One;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+padding-top: 0%;
+}
+.map{
+display: flex;
+width: 992px;
+height: 450px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+margin-left: 10%;
+margin-top: -50px;
+}
+.contact{
+    padding-top: 5%;
+}
+
+.container3{
+    text-align: center;
+    padding-top: 5%;
+    
+}
+.cont2{
+    display: flex;
+    gap: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+   
+}
+.container3 .cont2 img{
+    width: 200px;
+    height: 164px;
+    }
+    .cont3{
+        display: flex;
+        gap: 50px;
+    }
+    #cons{
+        display: flex;
+        gap: 20px;
+        height: 5px;
+    }
+    .date{
+    color: var(--Secondary, #159EEC);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    #h1{
+        color: var(--Secondary, #159EEC);
+        font-family: Work Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        }
+#news{
+    color: #1F2B6C;
+    text-align: center;
+    
+    /* Display 2 */
+    font-family: Yeseva One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+        }
+.eye{
+color: #526AE9;
+margin-top: 23px;
+}
+.love{
+color: #E2315C;
+margin-top: 23px;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #159EEC;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.cards{
+    display: flex;
+    margin-left: 5%;
+    gap: 100px;
+
+}
+.card{
+padding: 1%;
+width: 233px;
+height: 233px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--Accent, #BFD2F8);
+}
+.card1{
+    padding: 1%;
+    width: 233px;
+height: 233px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--Primary, #1F2B6C);
+}
+.card h5{
+color: var(--Primary, #1F2B6C);
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.card p{
+color: var(--Primary, #1F2B6C);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.card ion-icon{
+ width: 35.4px;
+height: 29.5px;
+flex-shrink: 0;
+color: #1F2B6C;
+}
+.card1 h5{
+    color: var(--Accent, #BFD2F8);
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.card1 p{
+color: var(--Accent, #BFD2F8);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.card1 ion-icon{
+    width: 35.4px;
+    height: 29.5px;
+    flex-shrink: 0;
+    color: #BFD2F8;  
+}
+footer{
+    margin-top: 20px;
+    background: var(--Primary, #1F2B6C);
+}
+.foot{
+    display: flex;
+    gap: 100px;
+    margin-left: 5%;
+}
+footer h1{
+color: var(--Accent, #BFD2F8);
+font-family: Yeseva One;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+footer h5{
+color: var(--white, #FCFEFE);
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+footer p{
+color: var(--white, #FCFEFE);
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
+}
+footer hr{
+width: 992px;
+height: 0px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: var(--Accent, #BFD2F8);
+}
+footer ion-icon{
+width: 24px;
+height: 24px;
+flex-shrink: 0;
+color: var(--Accent, #BFD2F8);
+}
+.copy{
+    margin-left: 5%;
+    display: flex;
+    gap: 400px;
+}
+.message {
+    display: flex;
+    align-items: center;
+    width: 272px;
+   height: 50px;
+}
+.message ion-icon{
+width: 22.015px;
+height: 19.08px;
+transform: rotate(-45deg);
+}
